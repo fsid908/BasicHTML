@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Example</title>
+</head>
+<body>
+    <section>
+        <h2>multimedia and image mapping example</h2>
+        <h3>&lt;img&gt; -Image Tag</h3>
+        <p>The &lt;img&gt; tag is used to embed images in an HTML document. It is a self-closing tag and requires the 'src' attribute to specify the path to the image file. The 'alt' attribute provides alternative text for the image if it cannot be displayed.</p> 
+        <img src="images/image.jpg" alt="Description of the image" height="300px" width="300px">
+
+
+        <h3>&lt;map&gt; -Image Map Tag</h3>
+        <p>The &lt;map&gt; tag is used to define an image map, which allows you to create clickable areas on an image. Each area is defined using the &lt;area&gt; tag, which specifies the shape and coordinates of the clickable region.</p>
+        <img src="https://images.unsplash.com/photo-1606778303039-9fc1488b1d8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image with map" usemap="#imagemap" height="500px" width="600px">
+        <map name="imagemap">
+            <area shape="rect" coords="0,0,100,100" href="link1.html" alt="Link 1">
+            <area shape="circle" coords="150,150,50" href="link2.html" alt="Link 2">
+        </map>
+
+
+        <h3>&lt;audio&gt; -Audio Tag</h3>
+        <p>The &lt;audio&gt; tag is used to embed audio content in an   HTML document. It supports multiple audio formats and provides controls for playback. The 'src' attribute specifies the path to the audio file.</p>
+        <audio controls>
+            <source src="images/audio/Song.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>&lt;video&gt; -Video Tag</h3>
+        <p>The &lt;video&gt; tag is used to embed video content in an
+HTML document. It supports multiple video formats and provides controls for playback. The 'src' attribute specifies the path to the video file.</p>
+        <video controls width="320" height="240">
+            <source src="images/audio/video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+</body>     
+</html>
