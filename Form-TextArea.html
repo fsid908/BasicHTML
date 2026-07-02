@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ChiPi Technologies - Assignment Upload</title>
+</head>
+
+<body>
+
+    <h2>ChiPi Technologies - Upload Your Assignment</h2>
+
+    <form>
+
+        <label for="studentName">Student Name:</label><br>
+
+        <input type="text"
+               id="studentName"
+               name="studentName"
+               placeholder="Your name please">
+
+        <br>
+        <br>
+
+        <label for="course">Course Name:</label><br>
+
+        <input type="text"
+               id="course"
+               name="course"
+               list="courses"
+               placeholder="Select or type a course">
+
+        <datalist id="courses">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="React JS">
+            <option value="Node JS">
+            <option value="Express JS">
+            <option value="MongoDB">
+            <option value="Java">
+            <option value="Python">
+            <option value="C Language">
+            <option value="C++">
+            <option value="Data Structures">
+            <option value="DBMS">
+            <option value="Operating System">
+            <option value="Computer Networks">
+        </datalist>
+
+        <br>
+        <br>
+
+        <label for="myFile">Upload Assignment File:</label><br>
+
+        <input type="file"
+               id="myFile"
+               name="assignmentFile">
+
+        <br>
+        <br>
+
+        <input type="submit"
+               value="Submit Assignment">
+
+        <input type="reset"
+               value="Clear Form">
+
+    </form>
+
+    <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+
+</html>
